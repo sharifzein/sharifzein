@@ -17,3 +17,10 @@ body {
   color: #777;
   box-sizing: border-box;
 }
+
+.content {
+  font-size: 2rem;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
