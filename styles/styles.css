@@ -18,9 +18,28 @@ body {
   box-sizing: border-box;
 }
 
+.box {
+  width: 60rem;
+  padding: 2rem;
+  margin: 2rem auto 0 auto;
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .content {
   font-size: 2rem;
   color: red;
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  font-size: 2rem;
+  color: blueviolet;
+  text-decoration: none;
   display: flex;
   justify-content: center;
 }
