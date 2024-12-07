@@ -26,20 +26,18 @@ body {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .content {
   font-size: 2rem;
   color: red;
-  display: flex;
-  justify-content: center;
+  align-self: center;
 }
 
 a:link {
   font-size: 2rem;
   color: blueviolet;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
+  align-self: center;
 }
